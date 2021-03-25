@@ -1,0 +1,59 @@
+<html>
+
+<head>
+    <title>login page</title>
+     <style>
+         body{
+    background-color: rgba(0, 128, 0, 0.3)
+}
+
+h1{
+    text-align: center; 
+}
+
+.form{
+    padding-left: 450px;
+}
+
+#input{
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+#submit{
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
+
+:checked{
+    margin-left: 200px;
+
+}
+     </style>
+</head>
+
+<body>
+    <h1>Student login form</h1>
+    <div class="form">
+        <label>username:</label>
+        <input type="text" id="input" username>
+        <br>
+        <label>password:</label>
+        <input type="text" id="input" password>
+        <br>
+        <button type="submit" id="submit" login onclick="mywork()">login</button><br>
+        <label><input type="checkbox" checked="checked" name="remember">Remember me</label><br>
+
+    </div>
+
+    <script>
+        function mywork() {
+            document.getElementById("submit").value
+            alert("you're about to log in");
+
+        }
+    </script>
+
+</body>
+
+</html>
